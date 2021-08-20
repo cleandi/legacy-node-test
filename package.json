@@ -8,6 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
+    "clean": "rm -fr node_modules && rm package-lock.json",
     "test": "npm install && node test.js && echo OK"
   },
   "author": "",
